@@ -1,0 +1,27 @@
+h1 {
+    font-size: 50px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left:475px;
+    margin-top: 30px;
+  
+    
+}
+
+#time {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
+}
+
+#save {
+    margin-left: 1200px;
+}
