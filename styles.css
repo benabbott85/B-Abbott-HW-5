@@ -6,13 +6,18 @@ h1 {
 
 h2 {
     font-size: 30px;
-    margin-left:475px;
+    margin-left:430px;
     margin-top: 30px;
   
     
 }
 
-#time {
+
+.save {
+    margin-left: 1200px;
+}
+
+#time9 {
     font-size: 20px;
     background: teal;
     padding-bottom: 10px;
@@ -22,6 +27,89 @@ h2 {
     width: 800 px;
 }
 
-#save {
-    margin-left: 1200px;
+#time10 {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
 }
+
+#time11 {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
+}
+
+#time12 {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
+}
+
+#time1 {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
+}
+
+#time2 {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
+}
+
+#time3 {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
+}
+
+#time4 {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
+}
+
+#time5 {
+    font-size: 20px;
+    background: teal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    width: 800 px;
+}
+
+
+
+
+
+
+
