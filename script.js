@@ -26,7 +26,9 @@ $(document).ready(function () {
 })
 
 
-var save = localStorage.getItem();
+hourUpdate();
+
+localStorage.getItem(time, value);
 
 
 
