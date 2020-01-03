@@ -36,24 +36,13 @@ $(document).ready(function (event) {
 
 })
 
+var dayDate = moment().format("dddd, MMMM Do YYYY");
+var currentHour = moment().format("HH");
+// saveAry.push(dayDate);
 
-// function moment(){
-// var dateEntered = $('#txtEnteredDate').val();
+console.log(currentHour);
+console.log(dayDate);
 
-// if (!moment(dateEntered,'MM-DD-YYYY').isValid()) {
-//   console.log('Invalid Date');
-// } else {
-//   console.log('Valid Date');
-// }
-
-// }
-
-// hourUpdate();
-
-// var rightNow = moment();
-// console.log(rightNow);
-
-// moment ();
 
 
 
