@@ -5,14 +5,14 @@ $(document).ready(function () {
     for (let hour = 9; hour < 18; hour++) {
         var item = localStorage.getItem(hour)
         if (item !== null) {
-            // push those values into correspding input boxes
+            // push those values into corresponding input boxes
             $('input.' + hour).val(item);
         }
     }
 
 
     
-    console.log(moment().format('H'));
+    // console.log(moment().format('H'));
     
     var currentHour = moment().format('H');
    
@@ -27,41 +27,28 @@ $(document).ready(function () {
     // }
     
     
-    // anything under the current hour
+    
    
 
-    // either
-    // create a class in you css that gives color wanted
+    
+    // create a class in css that gives color wanted
     // use jquery to add a class to that element
     // or
     // dynamically changes html
 
 
 
-    // hour = hour + 1;
-    // hour += 1;
-    // ++hour;
-
-    // hour++;
-    // for (let hour = 0900; hour < 0800 || hour > 1800; hour++) {
-    // };
-    // var time = hour
-    // item = localStorage.getItem(time)
-    // if (item !== null) {
-    //     $('.' + time + '> input').val(item)
-    // }
-    // if (hour === 1200){
-    //     hour = 0;
-    // };
+   
 
 
 
 
-    // link moment().format result to css styling
+    // link moment().format result to css 
     // 1) get result from moment.format
-    // 2) link time >current time to css coloring
+    // 2) link time >current time to css colors
     // 3) set css coloring for card
     // 4) set css coloring to grey if time is <current time
+    // 5) set css coloring to green if time is >= current time
 
     // console.log(moment().format());
 
@@ -72,11 +59,11 @@ $(document).ready(function () {
     // on click for save buttons
     $('.save').on('click', function () {
 
-        // grab the text from the input box
-        // console.log(this.id);
+        // grabs the text from the input box
+        
         var currentButtonId = this.id;
         var text = $('input.' + currentButtonId).val();
-        // console.log(inputBox.val())
+        
         // push it to local storage
         localStorage.setItem(currentButtonId, text);
 
